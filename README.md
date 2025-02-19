@@ -1,0 +1,2 @@
+# TypeScript Type Coercion Bug
+This example demonstrates how TypeScript's type coercion can result in runtime errors that are not caught during compilation.  The `add` function is designed to add two numbers, but due to implicit type coercion, a string is accepted without error, leading to an `NaN` result at runtime. The solution demonstrates how to use strict type checking to prevent this.
